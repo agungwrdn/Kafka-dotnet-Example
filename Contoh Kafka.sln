@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contoh Kafka", "Contoh Kafka\Contoh Kafka.csproj", "{0334B62A-32DA-4808-867D-3F5F3542E048}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kafka Consumer", "Kafka Consumer\Kafka Consumer.csproj", "{FD3C3C1A-B85E-474C-BD40-1E6E39922550}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DD13DB4E-B9F4-48C5-B636-2866DB0F04B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kafka-Image", "Kafka-Image", "{C3D42A76-4056-4196-A7DD-342038BC22A8}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0334B62A-32DA-4808-867D-3F5F3542E048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0334B62A-32DA-4808-867D-3F5F3542E048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0334B62A-32DA-4808-867D-3F5F3542E048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0334B62A-32DA-4808-867D-3F5F3542E048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD3C3C1A-B85E-474C-BD40-1E6E39922550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD3C3C1A-B85E-474C-BD40-1E6E39922550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD3C3C1A-B85E-474C-BD40-1E6E39922550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD3C3C1A-B85E-474C-BD40-1E6E39922550}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F38086D0-0CDD-4BAD-923C-5A6F7DC485CC}
+	EndGlobalSection
+EndGlobal
