@@ -47,5 +47,5 @@ services:
       KMAGIC_ALLOW_SCHEMA_DELETE: "true"
       KMAGIC_CONFIG_STORE_TYPE: "file"
       KMAGIC_CONFIG_STORE_CONNECTION: "Data Source=/config/KafkaMagicConfig.db;"
-      KMAGIC_CONFIG_ENCRYPTION_KEY: "Jakarta2023"
+      KMAGIC_CONFIG_ENCRYPTION_KEY: "Custom_Password"
   
